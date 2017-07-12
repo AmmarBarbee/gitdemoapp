@@ -1,5 +1,5 @@
 Template.friends.helpers({
-  friendlist(){return People.find({},{limit:20,sort:{age:-1}})},
+  friendlist(){return People.find({},{sort:{age:-1}})},
 })
 
 
